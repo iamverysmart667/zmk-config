@@ -14,17 +14,6 @@
 	tapping_term_ms = <175>;
 };
 
-/ {
-	combos {
-		compatible = "zmk,combos";
-        combo_caps_word {
-            timeout-ms = <50>;
-            key-positions = <11 17>;
-            bindings = <&caps_word>;
-        };
-	};
-};
-
 / { 
 
         keymap {
@@ -52,7 +41,7 @@
 		        bindings = <
 		        &kp NUM_1  &kp NUM_2    &kp NUM_3    &kp NUM_4   &kp NUM_5		&kp NUM_6 &kp NUM_7 &kp NUM_8 &kp NUM_9  &kp NUM_0 
 		        &kp TAB    &kp LC(S)    &kp DQT      &kp ESC     &kp F5 		&kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &kp DEL 
-		        &kp ESC    &kp TILDE 	&kp F11	 	 &kp F10	 &kp F12 	    &trans    &trans    &trans    &trans     &trans    
+		        &caps_word &kp TILDE 	&kp F11	 	 &kp F10	 &kp F12 	    &trans    &trans    &trans    &trans     &trans    
 		        			      			         &mo 3       &kp LGUI       &kp RGUI  &trans
 		        >;
 		    };
