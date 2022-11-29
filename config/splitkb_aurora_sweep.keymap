@@ -22,8 +22,8 @@
             key-positions = <11 17>;
             bindings = <&caps_word>;
         };
-	}
-}
+	};
+};
 
 / { 
 
