@@ -47,10 +47,10 @@
 	
      	right_layer {
 	        bindings = <
-	        &kp F7     &kp F8       &kp F9       &kp F12   &kp &trans		&kp NUM_6  &kp NUM_7  &kp NUM_8  &kp NUM_9   &kp NUM_0 
-	        &kp F4     &kp F5       &kp F6       &kp F11   &kp &trans 		&kp LEFT   &kp DOWN   &kp UP     &kp RIGHT   &kp DEL 
-	        &kp F1	   &kp F2 		&kp F3	     &kp F10   &kp &trans 	    &trans     &trans     &trans     &trans      &trans    
-	        			      			         &mo 4     &trans           &trans     &trans
+	        &kp F3  &kp F6  &kp F9  &kp F12  &trans		&kp NUM_6  &kp NUM_7  &kp NUM_8  &kp NUM_9   &kp NUM_0 
+	        &kp F2  &kp F5  &kp F8  &kp F11  &trans 		&kp LEFT   &kp DOWN   &kp UP     &kp RIGHT   &kp DEL 
+	        &kp F1	&kp F4 	&kp F7  &kp F10  &trans 	    &trans     &trans     &trans     &trans      &trans    
+	        			      		&mo 4    &trans           &trans     &trans
 	        >;
 	    };
 
