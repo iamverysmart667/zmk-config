@@ -15,6 +15,15 @@
 };
 
 / { 
+	combos {
+        compatible = "zmk,combos";
+        combo_esc {
+            timeout-ms = <50>;
+            key-positions = <0 1>;
+            bindings = <&kp ESC>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
              
@@ -30,7 +39,7 @@
 	    left_layer {
 	        bindings = <
 	            &kp BANG   &kp ATSN &kp HASH  &kp DLLR  &kp PRCT    		&kp CRRT  &kp LPRN &kp AMPS  &kp SEMI  &kp RPRN 
-                &kp TILDE  &kp BSLH &kp STAR   &kp COLN  &kp GRAVE 			&kp MINUS &kp LBKT &kp EQUAL &kp COLON &kp RBKT
+                &kp TILDE  &kp BSLH &kp STAR  &kp COLN  &kp GRAVE 			&kp MINUS &kp LBKT &kp EQUAL &kp COLON &kp RBKT
 	            &caps_word &trans   &trans    &trans    &trans    			&kp UNDER &kp LBRC &kp PLUS  &kp PIPE  &kp RBRC
 	            			    		      &trans    &kp LCTL             &kp SPC   &mo 3  
 	        >;
