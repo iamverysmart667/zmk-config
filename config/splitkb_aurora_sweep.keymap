@@ -88,7 +88,7 @@
 	        >;
 	    };
 
-		num_row {
+		numrow_layer {
 	        bindings = <
 	            &trans     &kp NUM_1  &kp NUM_2  &kp NUM_3	 &kp NUM_4          &trans	   &trans	  &trans	 &trans      &trans
 	            &trans	   &trans	  &trans	 &trans      &kp NUM_5  	    &trans	   &trans	  &trans	 &trans      &trans
