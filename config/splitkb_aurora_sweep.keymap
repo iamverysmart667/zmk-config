@@ -83,7 +83,7 @@
 	    gaming_layer {
 	        bindings = <
 	            &kp ESC     &kp Q       &kp W       &kp E       &kp R 	        &kp Y    &kp NUM_7  &kp NUM_8  &kp NUM_9  &kp TAB 
-	            &kp LCTL    &kp A  		&kp S  		&kp D  	    &kp F 	        &kp B    &kp NUM_4  &kp NUM_5  &kp NUM_6  &trans 
+	            &kp LCTL    &kp A  		&kp S  		&kp D  	    &kp F 	        &kp B    &kp NUM_4  &kp NUM_5  &kp NUM_6  &tog 5 
 	            &kp LSHFT   &kp Z       &kp X       &kp C       &kp V			&kp K    &kp NUM_1  &kp NUM_2  &kp NUM_3  &trans 
                				                        &mo 6       &kp SPC         &kp RET  &kp NUM_0
 	        >;
